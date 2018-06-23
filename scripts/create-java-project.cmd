@@ -6,6 +6,7 @@ cmd /c mvn archetype:generate -DgroupId=com.example -DartifactId=%project_name% 
 pushd %project_name%
 rmdir /s /q src\test
 echo cmd /c mvn compile>>run.cmd
+echo if ERRORLEVEL 1 exit /b>>run.cmd
 echo java -cp target\classes %project_name%.App>>run.cmd
 popd
 exit /b
