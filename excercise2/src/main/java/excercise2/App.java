@@ -1,14 +1,12 @@
 package excercise2;
 
 /**
- * Hello world! ã‚’ 5 å›ç¹°ã‚Šè¿”ã™
+ * Hello world! ‚ğ 5 ‰ñŒJ‚è•Ô‚·
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
-            System.out.println( "Hello World!" );
+            System.out.println("Hello World!");
         }
     }
 }
