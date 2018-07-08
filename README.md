@@ -4,6 +4,7 @@
 
 ## 課題
 
+1. 事前準備を参考に Maven の環境を構築する
 1. コンソールに「Hello, World」を表示する
 1. コンソールに「Hello, World」を 5 回繰り返して表示する
 1. コンソールから文字列を読み取ってそれを表示する
@@ -64,6 +65,16 @@ mvn compile
 6. コンパイルされたプログラムを実行する
 
 ```cmd
+java -cp target\classes excercise1.App
+```
+
+7. 5. - 6. の手順を簡略化するためには以下のサイトを参考に exec-maven-plugin プラグインを導入するか、バッチファイルを書きます
+
+[Java プログラムを Maven から実行する方法](https://qiita.com/hide/items/0c8795054219d04e5e98)
+
+```cmd
+cmd /c mvn compile
+if ERRORLEVEL 1 exit /b
 java -cp target\classes excercise1.App
 ```
 
