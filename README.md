@@ -1,28 +1,28 @@
-# Java ‚Ì‰Û‘è
+# Java ã®èª²é¡Œ
 
-**’ˆÓ (Windows ƒ†[ƒU[): Šeƒtƒ@ƒCƒ‹‚Å“ú–{Œê‚ðŽg—p‚·‚éê‡‚Í Shift JIS ‚Å•Û‘¶‚·‚é‚±‚Æ**
+**æ³¨æ„ (Windows ãƒ¦ãƒ¼ã‚¶ãƒ¼): å„ãƒ•ã‚¡ã‚¤ãƒ«ã§æ—¥æœ¬èªžã‚’ä½¿ç”¨ã™ã‚‹å ´åˆã¯ Shift JIS ã§ä¿å­˜ã™ã‚‹ã“ã¨**
 
-## ‰Û‘è
+## èª²é¡Œ
 
-1. Ž–‘O€”õ‚ðŽQl‚É Maven ‚ÌŠÂ‹«‚ð\’z‚·‚é
-1. ƒRƒ“ƒ\[ƒ‹‚ÉuHello, Worldv‚ð•\Ž¦‚·‚é
-1. ƒRƒ“ƒ\[ƒ‹‚ÉuHello, Worldv‚ð 5 ‰ñŒJ‚è•Ô‚µ‚Ä•\Ž¦‚·‚é
-1. ƒRƒ“ƒ\[ƒ‹‚©‚ç•¶Žš—ñ‚ð“Ç‚ÝŽæ‚Á‚Ä‚»‚ê‚ð•\Ž¦‚·‚é
-1. ƒRƒ“ƒ\[ƒ‹‚©‚ç•¶Žš—ñ‚ð“Ç‚ÝŽæ‚Á‚ÄA“Ç‚ÝŽæ‚Á‚½•¶Žš—ñ‚ð”Žš‚É•ÏŠ·‚µA‚»‚Ì‰ñ”ŒJ‚è•Ô‚µ‚ÄƒRƒ“ƒ\[ƒ‹‚ÉuHello, Worldv‚ð•\Ž¦‚·‚é
-1. 1 ‚©‚ç 100 ‚Ü‚ÅƒRƒ“ƒ\[ƒ‹‚É•\Ž¦‚·‚éB‚½‚¾‚µA3 ‚Ì”{”‚Í Fizz ‚ð•\Ž¦‚·‚é
-1. 1 ‚©‚ç 100 ‚Ü‚ÅƒRƒ“ƒ\[ƒ‹‚É•\Ž¦‚·‚éB‚½‚¾‚µA5 ‚Ì”{”‚Í Buzz ‚ð•\Ž¦‚·‚é
-1. 1 ‚©‚ç 100 ‚Ü‚ÅƒRƒ“ƒ\[ƒ‹‚É•\Ž¦‚·‚éB‚½‚¾‚µA3 ‚Ì”{”‚Í FizzA5 ‚Ì”{”‚Í BuzzA3 ‚Æ 5 ‚Ì”{”‚Í FizzBuzz ‚ð•\Ž¦‚·‚é
-1. ƒRƒ“ƒ\[ƒ‹‚©‚ç”’l‚ð“Ç‚ÝŽæ‚Á‚ÄA‚»‚Ì”’l‚ª‘f”‚©‚Ç‚¤‚©”»’è‚·‚é
+1. äº‹å‰æº–å‚™ã‚’å‚è€ƒã« Maven ã®ç’°å¢ƒã‚’æ§‹ç¯‰ã™ã‚‹
+1. ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«ã€ŒHello, Worldã€ã‚’è¡¨ç¤ºã™ã‚‹
+1. ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«ã€ŒHello, Worldã€ã‚’ 5 å›žç¹°ã‚Šè¿”ã—ã¦è¡¨ç¤ºã™ã‚‹
+1. ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‹ã‚‰æ–‡å­—åˆ—ã‚’èª­ã¿å–ã£ã¦ãã‚Œã‚’è¡¨ç¤ºã™ã‚‹
+1. ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‹ã‚‰æ–‡å­—åˆ—ã‚’èª­ã¿å–ã£ã¦ã€èª­ã¿å–ã£ãŸæ–‡å­—åˆ—ã‚’æ•°å­—ã«å¤‰æ›ã—ã€ãã®å›žæ•°ç¹°ã‚Šè¿”ã—ã¦ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«ã€ŒHello, Worldã€ã‚’è¡¨ç¤ºã™ã‚‹
+1. 1 ã‹ã‚‰ 100 ã¾ã§ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«è¡¨ç¤ºã™ã‚‹ã€‚ãŸã ã—ã€3 ã®å€æ•°ã¯ Fizz ã‚’è¡¨ç¤ºã™ã‚‹
+1. 1 ã‹ã‚‰ 100 ã¾ã§ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«è¡¨ç¤ºã™ã‚‹ã€‚ãŸã ã—ã€5 ã®å€æ•°ã¯ Buzz ã‚’è¡¨ç¤ºã™ã‚‹
+1. 1 ã‹ã‚‰ 100 ã¾ã§ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«è¡¨ç¤ºã™ã‚‹ã€‚ãŸã ã—ã€3 ã®å€æ•°ã¯ Fizzã€5 ã®å€æ•°ã¯ Buzzã€3 ã¨ 5 ã®å€æ•°ã¯ FizzBuzz ã‚’è¡¨ç¤ºã™ã‚‹
+1. ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‹ã‚‰æ•°å€¤ã‚’èª­ã¿å–ã£ã¦ã€ãã®æ•°å€¤ãŒç´ æ•°ã‹ã©ã†ã‹åˆ¤å®šã™ã‚‹
 
-## ƒvƒƒWƒFƒNƒg‚Ìì¬
+## ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã®ä½œæˆ
 
-1. ˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ðŽÀs‚µ‚Ä Maven ‚Ì archetype:generate ‚ð archetypeArtifactId ‘Î˜bƒ‚[ƒh‚ÅŠJŽn‚µ‚Ü‚·
+1. ä»¥ä¸‹ã®ã‚³ãƒžãƒ³ãƒ‰ã‚’å®Ÿè¡Œã—ã¦ Maven ã® archetype:generate ã‚’ archetypeArtifactId å¯¾è©±ãƒ¢ãƒ¼ãƒ‰ã§é–‹å§‹ã—ã¾ã™
 
 ```cmd
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart
 ```
 
-2. ‘Î˜bƒ‚[ƒh‚ÌÝ–â‚ÉˆÈ‰º‚Ì‚æ‚¤‚É‰ñ“š‚·‚é
+2. å¯¾è©±ãƒ¢ãƒ¼ãƒ‰ã®è¨­å•ã«ä»¥ä¸‹ã®ã‚ˆã†ã«å›žç­”ã™ã‚‹
 
 ```
 groupId: com.example
@@ -31,7 +31,7 @@ version: 1.0-SNAPSHOT
 package: excercise1
 ```
 
-“ü—Í‚Ì—á
+å…¥åŠ›ã®ä¾‹
 
 ```
 Define value for property 'groupId': com.example
@@ -40,37 +40,37 @@ Define value for property 'version' 1.0-SNAPSHOT: :
 Define value for property 'package' com.example: : excercise1
 ```
 
-3. Y: ‚É "Y" ‚Æ“ü—Í‚µ‚Ä Enter ƒL[‚ð‰Ÿ‰º‚·‚é
+3. Y: ã« "Y" ã¨å…¥åŠ›ã—ã¦ Enter ã‚­ãƒ¼ã‚’æŠ¼ä¸‹ã™ã‚‹
 
-“ü—Í‚Ì—á
+å…¥åŠ›ã®ä¾‹
 
 ```
  Y: : Y
 ```
 
-4. ƒvƒƒWƒFƒNƒg‚ÌƒtƒHƒ‹ƒ_‚ÉˆÚ“®‚µ‚Ü‚·
+4. ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã®ãƒ•ã‚©ãƒ«ãƒ€ã«ç§»å‹•ã—ã¾ã™
 
 ```cmd
 dir excercise1
 ```
 
-5. ˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ðŽÀs‚µƒvƒƒWƒFƒNƒg‚ðƒRƒ“ƒpƒCƒ‹‚µ‚Ü‚·
+5. ä»¥ä¸‹ã®ã‚³ãƒžãƒ³ãƒ‰ã‚’å®Ÿè¡Œã—ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã‚’ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã—ã¾ã™
 
 ```cmd
 mvn compile
 ```
 
-¦ã‹L‚ÌƒRƒ}ƒ“ƒh‚ðŽÀs‚·‚é‚±‚Æ‚ÅAexcecise1 ƒtƒHƒ‹ƒ_‚Ì target\classes “à‚É class ƒtƒ@ƒCƒ‹‚ªì¬‚³‚ê‚Ü‚·B
+â€»ä¸Šè¨˜ã®ã‚³ãƒžãƒ³ãƒ‰ã‚’å®Ÿè¡Œã™ã‚‹ã“ã¨ã§ã€excecise1 ãƒ•ã‚©ãƒ«ãƒ€ã® target\classes å†…ã« class ãƒ•ã‚¡ã‚¤ãƒ«ãŒä½œæˆã•ã‚Œã¾ã™ã€‚
 
-6. ƒRƒ“ƒpƒCƒ‹‚³‚ê‚½ƒvƒƒOƒ‰ƒ€‚ðŽÀs‚·‚é
+6. ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã•ã‚ŒãŸãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’å®Ÿè¡Œã™ã‚‹
 
 ```cmd
 java -cp target\classes excercise1.App
 ```
 
-7. 5. - 6. ‚ÌŽè‡‚ðŠÈ—ª‰»‚·‚é‚½‚ß‚É‚ÍˆÈ‰º‚ÌƒTƒCƒg‚ðŽQl‚É exec-maven-plugin ƒvƒ‰ƒOƒCƒ“‚ð“±“ü‚·‚é‚©Aƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ð‘‚«‚Ü‚·
+7. 5.-6. ã®æ‰‹é †ã‚’ç°¡ç•¥åŒ–ã™ã‚‹ãŸã‚ã«ã¯ä»¥ä¸‹ã®ã‚µã‚¤ãƒˆã‚’å‚è€ƒã« exec-maven-plugin ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’å°Žå…¥ã™ã‚‹ã‹ã€ãƒãƒƒãƒãƒ•ã‚¡ã‚¤ãƒ«ã‚’æ›¸ãã¾ã™
 
-[Java ƒvƒƒOƒ‰ƒ€‚ð Maven ‚©‚çŽÀs‚·‚é•û–@](https://qiita.com/hide/items/0c8795054219d04e5e98)
+[Java ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’ Maven ã‹ã‚‰å®Ÿè¡Œã™ã‚‹æ–¹æ³•](https://qiita.com/hide/items/0c8795054219d04e5e98)
 
 ```cmd
 cmd /c mvn compile
@@ -78,27 +78,27 @@ if ERRORLEVEL 1 exit /b
 java -cp target\classes excercise1.App
 ```
 
-## Ž–‘O€”õ
+## äº‹å‰æº–å‚™
 
-1. JDK8 ‚ðƒCƒ“ƒXƒg[ƒ‹
-1. Maven ‚ðƒCƒ“ƒXƒg[ƒ‹
+1. JDK8 ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+1. Maven ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-**JDK8 ‚ðƒCƒ“ƒXƒg[ƒ‹**
+**JDK8 ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«**
 
-1. [Oracle ‚ÌƒTƒCƒg](http://www.oracle.com/technetwork/java/javase/downloads/index.html)‚æ‚èAJDK‚ðƒ_ƒEƒ“ƒ[ƒh‚·‚é
-1. ƒ_ƒEƒ“ƒ[ƒh‚µ‚½ƒtƒ@ƒCƒ‹‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚é
-1. ƒCƒ“ƒXƒg[ƒ‹‚ªŠ®—¹‚µ‚½‚çŠÂ‹«•Ï”‚É JAVA_HOME ‚ð’Ç‰Á‚·‚é
+1. [Oracle ã®ã‚µã‚¤ãƒˆ](http://www.oracle.com/technetwork/java/javase/downloads/index.html)ã‚ˆã‚Šã€JDKã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹
+1. ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
+1. ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãŒå®Œäº†ã—ãŸã‚‰ç’°å¢ƒå¤‰æ•°ã« JAVA_HOME ã‚’è¿½åŠ ã™ã‚‹
 
-**Maven ‚ðƒCƒ“ƒXƒg[ƒ‹**
+**Maven ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«**
 
-1. [Maven ‚ÌƒTƒCƒg](https://maven.apache.org/download.cgi) ‚æ‚èAMaven ‚Ì Binary zip archive (—á: ƒo[ƒWƒ‡ƒ“ 3.5.4 ‚ðƒCƒ“ƒXƒg[ƒ‹) ‚ðƒ_ƒEƒ“ƒ[ƒh‚·‚é
-1. ƒ_ƒEƒ“ƒ[ƒh‚µ‚½ƒtƒ@ƒCƒ‹‚ð‰ð“€‚µ‚Ä ```C:\Program Files\apache-maven-3.5.4```‚É“WŠJ‚·‚é
-1. ŠÂ‹«•Ï”‚Ì PATH ‚É ```C:\Program Files\apache-maven-3.5.4\bin``` ‚ð’Ç‰Á‚·‚é
-1. ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚ðŠJ‚¢‚Ä ```mvn --version``` ‚Æ‘Å‚Á‚Äƒo[ƒWƒ‡ƒ“‚ª•\Ž¦‚³‚ê‚é‚±‚Æ‚ðŠm”F‚·‚é
+1. [Maven ã®ã‚µã‚¤ãƒˆ](https://maven.apache.org/download.cgi) ã‚ˆã‚Šã€Maven ã® Binary zip archive (ä¾‹: ãƒãƒ¼ã‚¸ãƒ§ãƒ³ 3.5.4 ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«) ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹
+1. ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ã‚’è§£å‡ã—ã¦ ```C:\Program Files\apache-maven-3.5.4```ã«å±•é–‹ã™ã‚‹
+1. ç’°å¢ƒå¤‰æ•°ã® PATH ã« ```C:\Program Files\apache-maven-3.5.4\bin``` ã‚’è¿½åŠ ã™ã‚‹
+1. ã‚³ãƒžãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‚’é–‹ã„ã¦ ```mvn --version``` ã¨æ‰“ã£ã¦ãƒãƒ¼ã‚¸ãƒ§ãƒ³ãŒè¡¨ç¤ºã•ã‚Œã‚‹ã“ã¨ã‚’ç¢ºèªã™ã‚‹
 
-**ŠÂ‹«•Ï”‚Ì’Ç‰Á‚É‚Â‚¢‚Ä**
+**ç’°å¢ƒå¤‰æ•°ã®è¿½åŠ ã«ã¤ã„ã¦**
 
-ŠÂ‹«•Ï”‚É‚Â‚¢‚Ä’m‚è‚½‚¢ê‡‚ÍˆÈ‰º‚ÌƒTƒCƒg‚ðŽQl‚É‚·‚é‚±‚Æ
+ç’°å¢ƒå¤‰æ•°ã«ã¤ã„ã¦çŸ¥ã‚ŠãŸã„å ´åˆã¯ä»¥ä¸‹ã®ã‚µã‚¤ãƒˆã‚’å‚è€ƒã«ã™ã‚‹ã“ã¨
 
-- [ŠÂ‹«•Ï” - Wikipedia](https://ja.wikipedia.org/wiki/%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0)
-- [Windows ‚ÅŠÂ‹«•Ï” PATH ‚ð‚¢‚¶‚é•û–@‚Ì‚Ü‚Æ‚ß](https://qiita.com/sta/items/6d29da0dc7069ffaae60)
+- [ç’°å¢ƒå¤‰æ•° - Wikipedia](https://ja.wikipedia.org/wiki/%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0)
+- [Windows ã§ç’°å¢ƒå¤‰æ•° PATH ã‚’ã„ã˜ã‚‹æ–¹æ³•ã®ã¾ã¨ã‚](https://qiita.com/sta/items/6d29da0dc7069ffaae60)
