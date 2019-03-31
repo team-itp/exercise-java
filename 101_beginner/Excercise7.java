@@ -1,10 +1,8 @@
-package excercise7;
-
 /**
- * 1 ‚©‚ç 100 ‚Ü‚ÅƒRƒ“ƒ\[ƒ‹‚É•\¦‚·‚éB‚½‚¾‚µA3 ‚Ì”{”‚Í FizzA
- * 5 ‚Ì”{”‚Í BuzzA3 ‚Æ 5 ‚Ì”{”‚Í FizzBuzz ‚ğ•\¦‚·‚é
+ * 1 ã‹ã‚‰ 100 ã¾ã§ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«è¡¨ç¤ºã™ã‚‹ã€‚ãŸã ã—ã€3 ã®å€æ•°ã¯ Fizzã€
+ * 5 ã®å€æ•°ã¯ Buzzã€3 ã¨ 5 ã®å€æ•°ã¯ FizzBuzz ã‚’è¡¨ç¤ºã™ã‚‹
  */
-public class App {
+public class Excercise7 {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
             if (i % 15 == 0) {

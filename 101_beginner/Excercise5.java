@@ -1,9 +1,7 @@
-package excercise5;
-
 /**
- * 1 から 100 までコンソールに表示する。ただし、3 の倍数は Fizz を表示する
+ * 1 縺九ｉ 100 縺ｾ縺ｧ繧ｳ繝ｳ繧ｽ繝ｼ繝ｫ縺ｫ陦ｨ遉ｺ縺吶ｋ縲ゅ◆縺縺励�3 縺ｮ蛟肴焚縺ｯ Fizz 繧定｡ｨ遉ｺ縺吶ｋ
  */
-public class App {
+public class Excercise5 {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0) {
