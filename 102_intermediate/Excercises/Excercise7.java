@@ -2,7 +2,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 10,000,000件の文字列のセット ( ```HashSet<String>``` ) を作成して ArrayList の場合と同様に文字列を検索しその時間を計測する
+ * 10,000,000件の文字列のセット ( ```HashSet<String>``` ) を作成して ArrayList
+ * の場合と同様に文字列を検索しその時間を計測する
  */
 public class Excercise7 {
     public static void main(String[] args) {
@@ -14,10 +15,11 @@ public class Excercise7 {
             System.out.println(newString);
         }
         long end = System.nanoTime();
-        System.out.println(String.format("%f秒かかりました。", ((double) end - (double) start) / 1000d / 1000d / 1000d));
+        System.out.println(String.format("%f秒かかりました。", (end - start) / 1000d / 1000d / 1000d));
         find(strings, "string-0000000");
-        find(strings, "string-5000000‬");
+        find(strings, "string-5000000");
         find(strings, "string-9999999");
+        find(strings, "string-AAAAAAA");
     }
 
     private static void find(Set<String> strings, String valueToFind) {
@@ -29,6 +31,6 @@ public class Excercise7 {
             System.out.println("存在しません。");
         }
         long end = System.nanoTime();
-        System.out.println(String.format("%f秒かかりました。", ((double) end - (double) start) / 1000d / 1000d / 1000d));
+        System.out.println(String.format("%f秒かかりました。", (end - start) / 1000d / 1000d / 1000d));
     }
 }
