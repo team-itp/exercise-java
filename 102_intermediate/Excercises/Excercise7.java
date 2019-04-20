@@ -4,7 +4,7 @@ import java.util.Set;
 /**
  * 10,000,000件の文字列のセット ( ```HashSet<String>``` ) を作成して ArrayList の場合と同様に文字列を検索しその時間を計測する
  */
-public class Excercise5 {
+public class Excercise7 {
     public static void main(String[] args) {
         long start = System.nanoTime();
         Set<String> strings = new HashSet<String>();

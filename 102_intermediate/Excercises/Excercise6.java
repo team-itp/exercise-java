@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * 10,000,000件の文字列のリスト ( ```ArrayList<String>``` ) を作成して先頭・真ん中・最後尾の文字列を検索しその時間を計測する
  */
-public class Excercise4 {
+public class Excercise6 {
     public static void main(String[] args) {
         long start = System.nanoTime();
         List<String> strings = new ArrayList<String>();
